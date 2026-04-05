@@ -9,7 +9,7 @@
 - Нейронная сеть
 
 ## Live Demo
-
+https://ereminaolesya.github.io/algorithms_visualization/
 
 ## Stack
 - HTML
