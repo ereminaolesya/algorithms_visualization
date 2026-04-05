@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Муравьиный</title>
+    <link rel="stylesheet" href="../style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<h1 class="text">Муравьиный алгоритм</h1>
+<canvas id="canvas" class = "canvasClastering"></canvas>
+<p id="timer">⏱️ Время: 0.00 сек</p>
+<div class="controlsClM">
+    <div class="left-panelClM">
+        <label for="genCount">Количество точек:</label>
+        <input type="number" id="genCount" min="1" max="1000" value="50">
+        <button onclick="generateRandomPoints()">СГЕНЕРИРОВАТЬ</button>
+    </div>
+    <div class="center-panelClM">
+        <button onclick="runAnts()">Муравьи</button>
+    </div>
+    <div class="right-panelClM">
+        <button id="clear">ОЧИСТИТЬ</button>
+        <a href="../index.html" class="back-button">Ко всем алгоритмам</a>
+    </div>
+
+
+</div>
+<script src="ants.js"></script>
+</body>
+</html>
